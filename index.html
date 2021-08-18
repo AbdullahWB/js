@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- <h2 id="head"></h2> -->
+
+    <marquee behavior="scroll" direction="left" onmousemove="this.stop();" onmouseout="this .start();">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia perspiciatis nam in. Reprehenderit sequi sapiente a, tempora nostrum consectetur, illo distinctio porro, aspernatur culpa nisi! Accusantium, deserunt doloremque.</p>
+    </marquee>
+
+
+    <div class="para-text">
+        <h1 class="ptext"></h1>
+        <p class="ptext-2"></p>
+    </div>
+
+
+    <div class="arithmetic">
+        <div class="addition m30">
+            <h3>Addition part start</h3>
+            <p>add&nbsp; 255+530=?</p>
+            <h4 id="add"></h4>
+            <button onclick="addition();">addition result</button>
+        </div>
+        <div class="addition m30">
+            <h3>Subtraction part start</h3>
+            <p>sub&nbsp; 483-312=?</p>
+            <h4 id="sub"></h4>
+            <button onclick="subtraction();">Subtraction result</button>
+        </div>
+        <div class="addition m30">
+            <h3>Multiplication part start</h3>
+            <p>mul&nbsp; 237*99=?</p>
+            <h4 id="mul"></h4>
+            <button onclick="multiplication();">Multiplication result</button>
+        </div>
+        <div class="addition">
+            <h3>Division part start</h3>
+            <p>div&nbsp; 1288/180=?</p>
+            <h4 id="div"></h4>
+            <button onclick="division();">Division result</button>
+        </div>
+    </div>
+
+
+
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+/*===============
+common css
+===============*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.full-wrapper {
+    width: 100%;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+/*====================
+common css
+====================*/
+
+.m30 {
+    margin-right: 30px;
+}
+
+
+/*====================
+js styleing start
+====================*/
+
+body {
+    background-color: #fff;
+}
+
+marquee {
+    background-color: #ff6b81;
+    color: #2f3542;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #222;
+}
+
+marquee p {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.para-text {
+    width: 1000px;
+    height: 300px;
+    background: linear-gradient(-45deg, #7d5fff, #18dcff);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: 1px solid #18dcff;
+    box-sizing: border-box;
+    margin: 40px auto;
+}
+
+.para-text .ptext {
+    font-size: 22px;
+    text-align: center;
+    color: #252c47;
+    margin: 20px 15px 0;
+}
+
+.para-text .ptext-2 {
+    text-align: center;
+    font-size: 44px;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+.arithmetic {
+    width: 1290px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.arithmetic .addition {
+    width: 300px;
+    height: 400px;
+    background-color: #1B9CFC;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.arithmetic .addition h3 {
+    margin: 15px 15px 0;
+    text-align: center;
+    font-size: 36px;
+    color: #f5f6fa;
+}
+
+.arithmetic .addition p {
+    font-size: 30px;
+    color: #30373d;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.arithmetic .addition h4 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 75px;
+    color: #dcdde1;
+}
+
+.arithmetic .addition button {
+    /* margin-top: 50px; */
+    margin-left: 75px;
+    padding: 10px 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #e84118;
+    color: azure;
+}
